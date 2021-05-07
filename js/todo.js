@@ -39,7 +39,6 @@ function ajaxcall(){
     xhttp.send();}
     var count=0;
     $(document).ready(function(){
-        
         $("body").on("change",".checks",()=>{
             var stcheck=new Promise(function(resolve,reject){
                 count=$(".checks:checked").length;
