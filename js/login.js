@@ -1,14 +1,14 @@
-let email=document.getElementById("email");
+let uname=document.getElementById("uname");
 let password=document.getElementById("pwd");
 
 
 function validate(callback){
- if(email.value==""||password.value=="")
+ if(uname.value==""||password.value=="")
    {
        alert("Fields cannot be empty");
        return false;
    }
-   else if(email.value=="admin"&&password.value=="12345"){
+   else if(uname.value=="admin"&&password.value=="12345"){
      callback();
    }
    else{
